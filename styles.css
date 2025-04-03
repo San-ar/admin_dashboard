@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Roboto';
+    /* border: 1px solid ; */
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    
+}
+
+.sidebar {
+    background-color: #4f8fd2;
+    height: 100vh;    
+}
+
+.sidebar h1 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.general svg,
+.help svg {
+    height: 20px;
+}
+
+.general > div,
+.help > div{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    color: #ffffff;
+    font-weight: 500;
+    gap: 20px;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 0.50fr 0.50fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.help {
+    padding-top: 40px;
+}
+
+
+.homepage {
+    background-color: #e2e7ef;
+    height: 100vh;
+    
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 3.5fr 1.5fr;
+}
+
+.projects {
+    background-color: #e1b330;
+    padding: 40px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+}
+
+.extras {
+
+    padding: 40px;
+
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    gap: 30px;
+}
+
+.announcements {
+    background-color: #ffffff;
+}
+
+.trending {
+    background-color: #ffffff;
+}
+
+svg {
+    width: 5vh;
+    fill: #ffffff;
+}
+
